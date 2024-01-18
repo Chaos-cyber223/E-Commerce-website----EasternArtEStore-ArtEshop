@@ -16,16 +16,14 @@
       <nav class="navbar-sidebar">
         <ul class="list-unstyled navbar-list">
           <li>
-            <a href="#">CN Paintings</a>
+            <a routerLink="/category/1" routerLinkActive="active-link"
+              >CN Paintings</a
+            >
           </li>
           <li>
-            <a href="#">Painting on a CN fan</a>
-          </li>
-          <li>
-            <a href="#">CN calligraphy</a>
-          </li>
-          <li>
-            <a href="#">CN landscape painting</a>
+            <a routerLink="/category/2" routerLinkActive="active-link"
+              >Painting on a CN fan</a
+            >
           </li>
         </ul>
       </nav>
@@ -61,7 +59,7 @@
     <!-- END HEADER DESKTOP-->
 
     <!-- MAIN CONTENT-->
-    <app-product-list></app-product-list>
+    <router-outlet></router-outlet>
   </div>
 </div>
 
