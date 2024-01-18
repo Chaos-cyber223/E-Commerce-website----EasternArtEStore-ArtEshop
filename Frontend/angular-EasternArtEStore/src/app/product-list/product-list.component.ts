@@ -8,7 +8,7 @@ import { ProductService } from '../services/product.service';
   selector: 'app-product-list',
   standalone: true,
   imports: [CommonModule],
-  templateUrl: './product-list.component.html',
+  templateUrl: './product-list-table.component.html',
   styleUrl: './product-list.component.css'
 })
 export class ProductListComponent {
